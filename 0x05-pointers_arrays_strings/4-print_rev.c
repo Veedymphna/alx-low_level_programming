@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_rev - imprime en reversa
+ * print_rev - prints a string in reverse
  * @s: string
  * return: 0
  */
@@ -21,3 +21,4 @@ void print_rev(char *s)
 		s--;
 	}
 	_putchar('\n');
+}
